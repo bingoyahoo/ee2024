@@ -1,4 +1,4 @@
-Note: I am posting this for the benefits of students taking the module in future semesters because I believe in open-source learning. Anyway, this is posted after the semester was over because they did a plagiarism check. Your project will be different, but the fundamentals will probably be similar. Don't just copy and paste the code, most of these can be found in the lecture notes anyway. Make sure that you really understand what's going on inside your software. I did not include all the libraries files here.
+Note: I am posting this for the benefits of students taking the NUS EE2024 module in future semesters because I believe in open-source learning. Anyway, this is posted after the semester was over because they did a plagiarism check. Your project will be different, but the fundamentals will probably be similar. Don't just copy and paste the code, most of these can be found in the lecture notes anyway. Make sure that you really understand what's going on inside your software. I did not include all the libraries files here.
 
 =====================================================================
 
