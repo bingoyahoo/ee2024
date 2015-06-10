@@ -36,7 +36,7 @@ Firstly, STAR-T consists of three mutually exclusive modes:
 
 =====================================================================
 
-You can go to this Youtube link to see a video of our working board: http://youtu.be/2XGff5KZwlU (it's loud so mute it if you want)
+You can go to this Youtube link to see a video of our working board: https://youtu.be/NvzNnPhkiUU (it's loud so mute it if you want)
 
 =====================================================================
 
