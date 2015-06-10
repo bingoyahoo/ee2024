@@ -1,4 +1,4 @@
-Note: I am posting this for the benefits of students taking the module in future semesters because I believe in open-source learning. Anyway, this is posted this after the semester is over because they do a plagiarism check. Your project will be different, but the fundamentals will probably be similar. Don't just copy and paste the code, most of these can be found in the lecture notes anyway. Make sure that you really understand what's going on inside your software. I did not include all the libraries files here.
+Note: I am posting this for the benefits of students taking the module in future semesters because I believe in open-source learning. Anyway, this is posted after the semester was over because they did a plagiarism check. Your project will be different, but the fundamentals will probably be similar. Don't just copy and paste the code, most of these can be found in the lecture notes anyway. Make sure that you really understand what's going on inside your software. I did not include all the libraries files here.
 
 =====================================================================
 
@@ -19,7 +19,7 @@ Firstly, STAR-T consists of three mutually exclusive modes:
 2. RESTRICTED which represents critical section when light intensity is above 2000 lux.
 	a. The RGB LED will be set to red.
 	b. All 16 LEDs from port expander PCA9532 are turned off.
-	c. OLED stops displaying the sampled data but shows the character ‘R’ for each of them.
+	c. OLED stops displaying the sampled data but shows the character â€˜Râ€™ for each of them.
 	d. If luminance level is below 2000 lux, one LED from the port expander PCA9532 will turn on every 250ms. 
 		i. When all 16 of them have turned on, STAR-T re-enters BASIC mode.
 		ii. However, if luminance level is above 2000 lux anytime during this period, then all 16 LEDs will be turned off and the counting sequence will be restarted.
