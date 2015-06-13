@@ -1,7 +1,11 @@
 Note: I am posting this for the benefits of students taking the NUS EE2024 module in future semesters because I believe in open-source learning. Anyway, this is posted after the semester was over because they did a plagiarism check. Your EE2024 project assignment will be different, but the fundamentals will probably be similar. Don't just copy and paste the code, most of these can be found in the lecture notes anyway. Make sure that you really understand what's going on inside your software. I did not include all the libraries files here.
 
 =====================================================================
+Read a writeup here: http://muggingsg.com/general/ee2024-assignment-2-guide-basic-embed-sys/
 
+You can go to this Youtube link to see a video of our working board: https://youtu.be/NvzNnPhkiUU (it's loud so mute it if you want)
+
+=====================================================================
 The objective of this EE2024 assignment is to simulate a spacecraft STAR-T monitoring the Sun at close range using the LPC1769 and EA baseboard.
 
 We will use three main sensors namely the accelerometer, light sensor and the temperature sensor on the baseboard to capture data about the physical environment surrounding STAR-T. The data will then be transmitted back at regular intervals via UART to a laptop/PC which is used to represent the Mission Control Centre (MCC) on Earth.
@@ -33,10 +37,6 @@ Firstly, STAR-T consists of three mutually exclusive modes:
 		i. Turning right increases the interval between readings.
 		ii. Turning left decreases the intervals between readings.
 		iii. The blinking rate of the 16 LEDs on the port expander will also change correspondingly to indicate the increase or decrease of reading intervals.
-
-=====================================================================
-
-You can go to this Youtube link to see a video of our working board: https://youtu.be/NvzNnPhkiUU (it's loud so mute it if you want)
 
 =====================================================================
 
